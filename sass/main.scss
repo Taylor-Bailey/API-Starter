@@ -1,0 +1,15 @@
+//add default to prevent struggs
+
+$bkg-prim: tomato;
+$text-prim: rgb(255, 247, 252);
+$link-prim: rgb(172, 230, 255);
+
+body {
+    background-color: $bkg-prim;
+    color: $text-prim;
+}
+
+ul li a {
+    color: $link-prim;
+}
+
